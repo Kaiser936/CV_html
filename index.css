@@ -1,3 +1,40 @@
+@charset "UTF-8";
+main h1 {
+  font-size: 50px;
+}
+main h3 {
+  color: gray !important;
+}
+main #about {
+  padding-top: 7rem;
+  padding-left: 5rem;
+  padding-right: 10rem;
+  color: rgb(60, 60, 60);
+}
+main #about h1 {
+  display: flex;
+  font-size: 80px;
+}
+main #about span {
+  margin-left: 20px;
+}
+main #experience {
+  padding-top: 1rem;
+  padding-left: 5rem;
+}
+main #formation {
+  padding-top: 2rem;
+  padding-left: 5rem;
+}
+main #compétences {
+  padding-top: 4rem;
+  padding-left: 5rem;
+}
+main #centreInteret {
+  padding-top: 7rem;
+  padding-left: 5rem;
+}
+
 header {
   background-color: rgb(138, 24, 24);
   position: fixed;
@@ -33,13 +70,33 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  background-image: url("img/bg.jpg");
+}
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  text-transform: uppercase;
+  color: rgb(60, 60, 60);
+}
+body a {
+  color: rgb(60, 60, 60);
+  text-decoration: none;
+}
+body p {
+  font-size: 20px;
+}
+body .logo {
+  width: 20px;
+  font-size: 100px;
+  margin-right: 100px;
+}
+body .redFont {
+  color: rgb(138, 24, 24);
 }
 body main {
-  margin-left: 230px;
+  margin-left: 200px;
 }
 body main section {
   border-bottom: 1px solid #000000;
-  height: 100vh;
+  min-height: 100vh;
 }
 body main section:last-child {
   border-bottom: none;
@@ -48,6 +105,5 @@ body header nav img {
   margin-bottom: 20px;
 }
 body header nav a {
-  text-decoration: none;
   padding: 10px;
 }/*# sourceMappingURL=index.css.map */

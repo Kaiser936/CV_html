@@ -7,13 +7,39 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    background-image: url('img/bg.jpg');
+    // background-size: cover;
+
+    h1,h2,h3,h4,h5,h6 {
+        text-transform: uppercase;
+        color: rgb(60, 60, 60);
+    }
+
+    a{
+        color: rgb(60, 60, 60);
+        text-decoration: none;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .logo {
+        width: 20px;
+        font-size: 100px;
+        margin-right: 100px;
+    }
+
+    .redFont{
+        color: rgb(138, 24, 24);
+    }
 
     main {
-        margin-left: 230px;
+        margin-left: 200px;
     
         section {
             border-bottom: 1px solid #000000;
-            height: 100vh;
+            min-height: 100vh;
             }
         
         section:last-child {
@@ -29,7 +55,6 @@ body {
             }
 
             a{
-                text-decoration: none;
                 padding:10px
                 }
 

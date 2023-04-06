@@ -1,3 +1,47 @@
+@mixin h1Perso {
+    font-size: 50px;
+}
+
+
 main {
-    
+    h1 {
+        @include h1Perso();
+    }
+    h3 {
+        color: gray !important;
+    }
+        #about{
+            padding-top: 7rem;
+            padding-left: 5rem;
+            padding-right: 10rem;
+            color: rgb(60, 60, 60);
+            h1{
+                display:flex;
+                font-size: 80px;
+            }
+            span {
+                margin-left: 20px;
+            }
+
+        }
+        #experience{
+            padding-top: 1rem;
+            padding-left: 5rem;
+        }
+        #formation{
+            padding-top: 2rem;
+            padding-left: 5rem;
+
+        }
+        #compétences{
+            padding-top: 4rem;
+            padding-left: 5rem;
+
+        }
+        #centreInteret{
+            padding-top: 7rem;
+            padding-left: 5rem;
+
+        }
+
 }
