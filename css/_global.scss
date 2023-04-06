@@ -1,0 +1,43 @@
+// -----> Reset <-----
+
+body {
+    font-family: 'Bebas Neue', cursive;
+    margin:0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    main {
+        margin-left: 230px;
+    
+        section {
+            border-bottom: 1px solid #000000;
+            height: 100vh;
+            }
+        
+        section:last-child {
+            border-bottom: none;
+        }
+        
+    }
+
+    header {
+        nav{
+            img {
+                margin-bottom: 20px;
+            }
+
+            a{
+                text-decoration: none;
+                padding:10px
+                }
+
+        }
+
+    }
+}
+
+
+
+

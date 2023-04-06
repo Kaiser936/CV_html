@@ -1,1 +1,53 @@
-/*# sourceMappingURL=index.css.map */
+header {
+  background-color: rgb(138, 24, 24);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100%;
+}
+header nav {
+  margin-top: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+}
+header nav img {
+  width: 150px;
+  border-radius: 50%;
+  border: 10px solid rgba(255, 163, 163, 0.526);
+}
+header nav a {
+  color: rgba(250, 235, 215, 0.751);
+}
+header nav a:hover {
+  color: white;
+}
+
+body {
+  font-family: "Bebas Neue", cursive;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+body main {
+  margin-left: 230px;
+}
+body main section {
+  border-bottom: 1px solid #000000;
+  height: 100vh;
+}
+body main section:last-child {
+  border-bottom: none;
+}
+body header nav img {
+  margin-bottom: 20px;
+}
+body header nav a {
+  text-decoration: none;
+  padding: 10px;
+}/*# sourceMappingURL=index.css.map */
