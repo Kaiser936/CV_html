@@ -1,147 +1,116 @@
 @charset "UTF-8";
-main h1 {
-  font-size: 50px;
+main {
+  padding-top: 100px;
+}
+main h2 {
+  font-size: 16px;
 }
 main h3 {
   color: gray !important;
 }
+main p {
+  font-size: 14px;
+}
 main #about {
-  padding-top: 7rem;
-  padding-left: 5rem;
-  padding-right: 10rem;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px grey solid;
   color: rgb(60, 60, 60);
 }
 main #about h1 {
   display: flex;
-  font-size: 80px;
+  font-size: 30px;
 }
 main #about span {
-  margin-left: 20px;
+  margin-left: 10px;
 }
 main #experience {
   padding-top: 1rem;
-  padding-left: 5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px grey solid;
 }
 main #formation {
-  padding-top: 2rem;
-  padding-left: 5rem;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px grey solid;
 }
 main #compétences {
-  padding-top: 4rem;
-  padding-left: 5rem;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px grey solid;
 }
 main #centreInteret {
-  padding-top: 7rem;
-  padding-left: 5rem;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px grey solid;
 }
 
-header {
-  background-color: rgb(138, 24, 24);
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 200px;
-  height: 100%;
+.menu-open {
+  padding-top: 235px !important;
+  transition: padding-top 0.3s ease-in-out;
 }
+
 header nav {
-  margin-top: 15vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 20px;
-}
-header nav img {
-  width: 150px;
-  border-radius: 50%;
-  border: 10px solid rgba(255, 163, 163, 0.526);
+  position: fixed !important;
+  width: 100%;
+  background-color: rgb(138, 24, 24);
 }
 header nav a {
-  color: rgba(250, 235, 215, 0.751);
+  color: rgba(250, 235, 215, 0.751) !important;
+  text-align: center;
 }
 header nav a:hover {
-  color: white;
+  color: white !important;
+}
+header nav .navbar-toggler {
+  color: rgba(250, 235, 215, 0.751) !important;
+}
+header nav .navbar-toggler-icon {
+  color: rgba(250, 235, 215, 0.751) !important;
+}
+header nav .photo {
+  width: 50px;
+  border: 4px solid rgba(250, 235, 215, 0.751);
+  border-radius: 50%;
 }
 
 body {
   font-family: "Bebas Neue", cursive;
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  background-image: url("img/bg.jpg");
 }
-body h1, body h2, body h3, body h4, body h5, body h6 {
+
+h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   color: rgb(60, 60, 60);
 }
-body a {
+
+a {
   color: rgb(60, 60, 60);
   text-decoration: none;
 }
-body p {
-  font-size: 20px;
-}
-body .logo {
-  width: 20px;
-  font-size: 100px;
+
+.logo {
+  font-size: 30px;
   margin-right: 100px;
 }
-body .redFont {
+
+.redFont {
   color: rgb(138, 24, 24);
 }
-body main {
-  margin-left: 200px;
-}
-body main section {
-  border-bottom: 1px solid #000000;
-  min-height: 100vh;
-}
-body main section:last-child {
-  border-bottom: none;
-}
-body header nav img {
-  margin-bottom: 20px;
-}
-body header nav a {
-  padding: 10px;
-}
 
-.hide {
-  display: none;
-}
-
-.show {
-  display: flex;
-}
-
-@media screen and (max-width: 1199px) {
-  header {
-    background-color: rgb(138, 24, 24);
-    width: 100%;
-    max-height: 100px !important;
-  }
-  header nav {
-    font-size: 20px;
-    display: flex;
-    flex-direction: row;
-    margin-top: 0vh;
-    justify-content: center;
-    background-color: rgb(138, 24, 24);
-  }
-  header nav img {
-    margin-top: 20px;
-    width: 50PX;
-  }
-  header nav .link {
-    padding: 15px;
-  }
-  main {
-    margin-left: 0px !important;
-    padding-top: 150px;
-  }
-  main section {
-    max-height: 100vh;
+@media screen and (min-width: 1024px) {
+  header nav .photo {
+    width: 100px;
   }
 }/*# sourceMappingURL=index.css.map */

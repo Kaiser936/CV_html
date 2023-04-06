@@ -1,47 +1,52 @@
-@mixin h1Perso {
-    font-size: 50px;
+@mixin mainPadding {
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px grey solid;
 }
 
-
 main {
-    h1 {
-        @include h1Perso();
+    padding-top: 100px;
+    h2 {
+        font-size: 16px;
     }
     h3 {
         color: gray !important;
     }
+    p{
+        font-size: 14px;
+    }
         #about{
-            padding-top: 7rem;
-            padding-left: 5rem;
-            padding-right: 10rem;
+            @include mainPadding();
             color: rgb(60, 60, 60);
             h1{
                 display:flex;
-                font-size: 80px;
+                font-size: 30px;
             }
             span {
-                margin-left: 20px;
+                margin-left: 10px;
             }
 
         }
         #experience{
-            padding-top: 1rem;
-            padding-left: 5rem;
+            @include mainPadding();
         }
         #formation{
-            padding-top: 2rem;
-            padding-left: 5rem;
+            @include mainPadding();
 
         }
         #compétences{
-            padding-top: 4rem;
-            padding-left: 5rem;
-
+            @include mainPadding();
         }
         #centreInteret{
-            padding-top: 7rem;
-            padding-left: 5rem;
-
+            @include mainPadding();
         }
 
+}
+
+
+.menu-open {
+    padding-top: 235px !important;
+    transition: padding-top 0.3s ease-in-out;
 }

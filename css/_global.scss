@@ -1,14 +1,12 @@
-// -----> Reset <-----
+// // -----> Reset <-----
 
 body {
     font-family: 'Bebas Neue', cursive;
     margin:0;
     padding: 0;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-image: url('img/bg.jpg');
-    // background-size: cover;
+}
+//     // background-image: url('img/bg.jpg');
+//     // background-size: cover;
 
     h1,h2,h3,h4,h5,h6 {
         text-transform: uppercase;
@@ -20,56 +18,11 @@ body {
         text-decoration: none;
     }
 
-    p {
-        font-size: 20px;
-    }
-
     .logo {
-        width: 20px;
-        font-size: 100px;
+        font-size: 30px;
         margin-right: 100px;
     }
 
     .redFont{
         color: rgb(138, 24, 24);
     }
-
-    main {
-        margin-left: 200px;
-    
-        section {
-            border-bottom: 1px solid #000000;
-            min-height: 100vh;
-            }
-        
-        section:last-child {
-            border-bottom: none;
-        }
-        
-    }
-
-    header {
-        nav{
-            img {
-                margin-bottom: 20px;
-            }
-
-            a{
-                padding:10px
-                }
-
-        }
-
-    }
-}
-
-.hide {
-    display: none;
-}
-
-.show {
-    display: flex;
-}
-
-
-
