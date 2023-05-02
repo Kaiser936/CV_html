@@ -1,16 +1,28 @@
-@media screen and (min-width: 1024px){
-    header {
-        nav {
-            .photo {
-                width: 100px;
+// -----> Desktop version <------
+@media screen and (min-width: 991px){
+
+body {
+    display: flex;
+    flex-direction: row;
+    
+        header {
+            nav {
+                text-align: center;
+                font-size: 20px !important;
+
+                .photo {
+                    width: 100px;
+                    margin-right: 50px;
+                    
+                }
             }
         }
-    }
+
+        main {
+            padding-top: 170px;
+            section:not(:first-child) {
+                padding-top: 5rem !important;
+            }
+        }
+    }   
 }
-
-
-// //     position: fixed;
-// //     top: 0;
-// //     left: 0;
-// //     width: 200px;
-// //     height: 100%;
